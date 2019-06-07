@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task2
+namespace Double_Number
 {
     class Program
     {
@@ -22,7 +22,7 @@ namespace Task2
         {
             int count = 0;
 
-            if(number > 0 && number % 2 == 0)
+            if (number > 0 && number % 2 == 0)
             {
                 count++;
                 number /= 2;
