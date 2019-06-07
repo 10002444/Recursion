@@ -19,6 +19,7 @@ namespace Task1
             int sum = RecursivlyAdd(num1, num2);
             Console.WriteLine($"The sum of the numbers form {num1} and {num2} is {sum}");
 
+            Console.ReadKey();
         }
         public static int RecursivlyAdd(int num1, int num2)
         {
